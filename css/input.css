@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
+}
+
+
 .holiday {
     font-family: "holiday", serif;
     font-weight: 400;

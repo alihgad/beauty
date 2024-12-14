@@ -14,8 +14,9 @@
     />
   </head>
   <body class="font-roboto">
-    <!-- Navbar -->
-    <nav class="bg-[#E87CA7] fixed right-0 left-0 z-[99999]">
+    <div class="fixed right-0 left-0 z-[99999]">
+      <!-- Navbar -->
+    <nav class="bg-[#E87CA7] ">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
@@ -30,9 +31,9 @@
               >Home</a
             >
             <a
-              href="#"
+              href="#Partners"
               class="text-white hover:text-pink-200 px-3 py-2 rounded-md text-sm font-medium"
-              >About</a
+              >Partners</a
             >
             <a
               href="#"
@@ -49,7 +50,7 @@
           <div class="md:hidden">
             <button
               id="menu-btn"
-              class="text-gray-400 hover:text-white focus:outline-none"
+              class="text-[#f2f2f2] hover:text-white focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,41 +70,44 @@
           </div>
         </div>
       </div>
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="md:hidden hidden bg-gray-700">
-        <a
-          href="#"
-          class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >Home</a
-        >
-        <a
-          href="#"
-          class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >About</a
-        >
-        <a
-          href="#"
-          class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >Services</a
-        >
-        <a
-          href="#"
-          class="block text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >Contact</a
-        >
-      </div>
+      
     </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden w-1/4 right-2 rounded-xl py-2 top-[3.4rem] absolute bg-[#F9D7E2]">
+      <div class="absolute -top-6 right-5 border-[15px] border-x-transparent border-t-transparent   border-[#F9D7E2]"></div>
+      <a
+        href="#"
+        class="block text-gray-600  px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:bg-opacity-5"
+        >Home</a
+      >
+      <a
+        href="#Partners"
+        class="block text-gray-600  px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:bg-opacity-5"
+        >Partners</a
+      >
+      <a
+        href="#"
+        class="block text-gray-600  px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:bg-opacity-5"
+        >Services</a
+      >
+      <a
+        href="#"
+        class="block text-gray-600  px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:bg-opacity-5"
+        >Contact</a
+      >
+    </div>
+    </div>
 
     <main>
       <!-- hero section -->
       <div class="hero bg-image h-screen">
         <div
-          class="bg-black bg-opacity-50 w-full h-full flex justify-center items-center flex-col px-5"
+          class="bg-black bg-opacity-50 w-full h-full flex justify-center items-center flex-col px-2"
         >
-          <h1 class="text-white md:text-9xl text-7xl mb-5 font-holiday">
+          <h1 class="text-white md:text-9xl text-[3.5rem] mb-5 font-holiday">
             Beuaty Centers
           </h1>
-          <p class="text-white text-center md:text-4xl text-lg el-messiri">
+          <p class="text-white text-center md:text-4xl text-xl el-messiri">
             حريصين دائما على ان نقدم لكى أحسن الاماكن فى الرياض
           </p>
           <button></button>
@@ -113,7 +117,7 @@
       <!-- holder -->
       <div class="container bg-[#f2f2f2]">
         <!-- Partners -->
-        <div class="px-10 pb-5 ">
+        <div id="Partners" class="md:px-10 p-5 pb-5 ">
           <h2 class="text-center py-8 text-4xl md:text-6xl el-messiri">
             شركاؤنا
           </h2>
@@ -166,7 +170,7 @@
         <!-- Partners End -->
 
         <!-- map -->
-        <div class="p-10">
+        <div class="md:p-10 p-5">
           <div class="rounded-2xl overflow-hidden border-gray-300">
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d927767.3418615431!2d47.48203637929662!3d24.723749796998025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1734208994353!5m2!1sar!2seg"
