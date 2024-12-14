@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.holiday {
+    font-family: "holiday", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Holiday';
+    src: url('./../fonts/Merry Holiday.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.el-messiri {
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+.cairo {
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+  
+  
+  
+  
+
+.hero{
+    background-image: url("./../assets/hero.jpg") ;
+}
+
+.bg-image{
+    background-position: center center;
+    background-size :cover ;
+
+}
